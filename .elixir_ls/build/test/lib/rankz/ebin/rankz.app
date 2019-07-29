@@ -1,0 +1,11 @@
+{application,rankz,
+             [{applications,[kernel,stdlib,elixir,logger,hound,cowboy,plug,
+                             poison,memento,floki,plug_cowboy]},
+              {description,"rankz"},
+              {modules,['Elixir.Mix.Tasks.Rankz.Scraper','Elixir.Rankz',
+                        'Elixir.Rankz.App','Elixir.Rankz.Router',
+                        'Elixir.Rankz.Scraper','Elixir.Rankz.Supervisor',
+                        'Elixir.Rankz.WebService']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.Rankz.Supervisor',[]}}]}.
